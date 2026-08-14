@@ -57,27 +57,8 @@ export default function About() {
                   theme === "dark" ? "text-gray-300" : "text-gray-600"
                 }`}
               >
-                Hello! I'm Nazmul Hossain, a passionate JavaScript developer
-                specializing in creating innovative web solutions and
-                user-friendly interfaces.{" "}
-                <span
-                  className={`font-bold ${
-                    theme === "dark" ? "text-white" : "text-gray-900"
-                  }`}
-                >
-                  As the creator of the OlovaJS UI Framework
-                </span>
-                , I'm dedicated to simplifying development workflows.
-              </p>
-              <p
-                className={`${
-                  theme === "dark" ? "text-gray-300" : "text-gray-600"
-                }`}
-              >
-                My focus is on making web development faster, easier, and
-                accessible to all developers. Currently, I'm expanding into
-                backend development to grow as a full-stack developer and create
-                seamless, robust web applications.
+               I'm Jaison D Souza, a Full-Stack Web Developer specializing in building innovative, end-to-end web solutions. I focus on bridging robust backend architectures with seamless, user-friendly frontends to create fast, scalable applications. Driven by a passion for continuous learning and the developer community, I build full-stack projects designed to streamline workflows, enhance productivity, and push the boundaries of modern web development.
+               
               </p>
 
               <div className="pt-6">
@@ -91,11 +72,9 @@ export default function About() {
                       theme === "dark" ? "text-gray-300" : "text-gray-600"
                     }
                   >
-                    I'm a lifelong learner and innovator, driven by a desire to
-                    contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
+                    I am dedicated to simplifying workflows and delivering end-to-end web solutions that are innovative, fast, and accessible.
+
+Driven by continuous learning and a desire to create real value, I consistently push the boundaries of modern development to build full-stack applications that make a lasting impact.
                   </p>
 
                   <div className="mt-6 space-y-3">
@@ -104,7 +83,7 @@ export default function About() {
                         theme === "dark" ? "text-white" : "text-gray-900"
                       }`}
                     >
-                      Nazmul Hossain, Creator of 
+                      Jaison D Souza, Creator of 
                     </cite>
                     <div className="flex items-center gap-2">
                       <img
@@ -114,7 +93,7 @@ export default function About() {
                         height="20"
                         width="auto"
                       />
-                      <span>OlovaJS</span>
+                      <span>JD TECH</span>
                     </div>
                   </div>
                 </blockquote>

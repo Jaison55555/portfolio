@@ -10,6 +10,7 @@ import {
   Menu,
   Sun,
   Moon,
+  Award,
 } from "lucide-react";
 import { useTheme } from "../../provider/page";
 
@@ -48,6 +49,7 @@ export default function Header() {
       path: "/education",
     },
     { id: "projects", icon: Laptop, text: "Projects", path: "/projects" },
+    { id: "certificates", icon: Award, text: "Certificates", path: "/certificates" },
     { id: "contact", icon: Mail, text: "Contact", path: "/contact" },
   ];
 

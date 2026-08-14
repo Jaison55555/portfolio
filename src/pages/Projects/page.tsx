@@ -1,5 +1,5 @@
 import { Github, ExternalLink } from "lucide-react";
-import olova from "@/assets/projects/olova-B0FjVVEL.png";
+import olova from "@/assets/projects/image.png";
 import portfolio from "@/assets/projects/Annotation 2025-03-20 155334.png";
 import codekori from "@/assets/projects/codekori.png";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -19,44 +19,17 @@ const ProjectShowcase = () => {
 
   const projects = [
     {
-      title: "Olova! A Lightweight JavaScript Library",
+      title: "Book Management System - A MERN Stack Web Application for Managing Books, Authors, and Genres",
       description:
-        "Olova.js is a lightweight JavaScript library for building modern, reactive, and dynamic web applications. It features a simple, component-based architecture, enabling developers to create reusable and interactive UI elements with minimal code and overhead.",
+        "A full-stack web application for managing books, authors, and genres. Built with MongoDB, Express.js, React.js, and Node.js. Features",
       tags: ["JavaScript", "Reactive", "Web Development"],
       links: {
-        github: "https://github.com/olovajs/olova",
-        demo: "https://olova.js.org/",
+        github: "https://github.com/Jaison55555/fronend",
+        demo: "https://fronend-emiz.vercel.app/",
       },
       image: olova,
       featured: true,
-    },
-    {
-      title:
-        "A sleek portfolio built with React and Tailwind CSS to showcase your skills",
-      description:
-        "This portfolio is a sleek and modern showcase of my skills and projects. It's built with React and Tailwind CSS, providing a clean and professional look that reflects my professional brand.",
-      tags: ["React", "Tailwind CSS", "Portfolio", "Typescript"],
-      links: {
-        github: "https://github.com/seraprogrammer/portfolio",
-        demo: "https://codervai.vercel.app/",
-      },
-      image: portfolio,
-      featured: true,
-    },
-    {
-      title:
-        "CodeKori is an open-source online code editor with built-in AI, completely free to use",
-      description:
-        "This portfolio is a sleek and modern showcase of my skills and projects. It's built with React and Tailwind CSS, providing a clean and professional look that reflects my professional brand.",
-      tags: ["React", "Tailwind CSS", "Portfolio", "Typescript"],
-      links: {
-        github: "https://github.com/seraprogrammer/CodeKori",
-        demo: "https://codekori.js.org/",
-      },
-      image: codekori,
-      featured: true,
-    },
-  ];
+    }]
 
   return (
     <div

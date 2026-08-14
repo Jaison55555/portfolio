@@ -61,28 +61,23 @@ export default function ProfessionalJourney() {
           }}
         >
           <ExperienceCard
-            title="JavaScript Developer"
-            company="OlovJS (Sera Programmer)"
-            period="2023 - Present"
-            description="Contributed to developing JavaScript libraries and enhancing framework functionalities."
+            title="Lab assistant"
+            company="Milagres College,Mangalore"
+            period="27-APRIL-2026 - Present"
+            description="Lab assistant
+
+Maintained computer lab hardware and software, resolved daily technical issues, and provided user support to ensure a productive working environment"
             icon={<Code />}
           />
 
           <ExperienceCard
-            title="Junior Frontend Developer"
-            company="Sera Programmer"
-            period="2021 - 2023"
+            title="Mern Stack Developer intern"
+            company="CodeLabs Systems,Mangalore"
+            period="July-2025 - November-2025"
             description="Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs."
             icon={<Briefcase />}
           />
 
-          <ExperienceCard
-            title="WordPress Developer"
-            company="Fiverr"
-            period="2019 - 2020"
-            description="Worked on developing and customizing WordPress websites for clients globally."
-            icon={<Briefcase />}
-          />
         </motion.div>
       </div>
     </section>

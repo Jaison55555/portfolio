@@ -10,24 +10,24 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "BCA (Bachelor of Computer Applications)",
+      school: "ST RAYMOND'S COLLEGE, MANGALORE",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2022-2025",
+      achievements: ["GPA: 7.92", "Subject: Computer Science"],
+      skills: ["C++", "Java", "Python", "JavaScript", "Web Development", "Database Management", "Software Engineering", "Cloud Computing","AI & Machine Learning","advanced programming","php"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Focused on developing a strong foundation in computer science principles, programming languages, and software development methodologies.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "SSLC (Secondary School Leaving Certificate)",
+      school: "Sahara English Medium School,Addoor",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2019-2020",
+      achievements: ["Percentage: 75%", "Subject: Science", "Subject: Social Studies", "Subject: Mathematics", "Subject: English","Subject: Hindi","Subject: Kannada"],
+      skills: ["Science", "Social Studies", "mathematics", "English","hindi","kannada"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Completed foundational education with a focus on core subjects, fostering critical thinking and problem-solving skills.",
     },
   ];
 
