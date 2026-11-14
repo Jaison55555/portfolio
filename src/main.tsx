@@ -5,6 +5,8 @@ import ThemeProvider from "./provider/page";
 import "./index.css";
 import App from "./App.jsx";
 
+
+
 // Add a null check before creating root
 const rootElement = document.getElementById("root");
 if (rootElement) {

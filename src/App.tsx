@@ -8,6 +8,7 @@ import Projects from "./pages/Projects/page";
 import Contact from "./pages/Contact/page";
 import Education from "./pages/Education/Education";
 import Certificates from "./pages/Certificates/page";
+import { Analytics } from "@vercel/analytics/next";
 export default function App() {
   return (
     <>
@@ -31,6 +32,7 @@ export default function App() {
           />
         </Routes>
       </div>
+            <Analytics />
     </>
   );
 }
