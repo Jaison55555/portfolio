@@ -1,7 +1,5 @@
 import { Github, ExternalLink } from "lucide-react";
 import olova from "@/assets/projects/image.png";
-import portfolio from "@/assets/projects/Annotation 2025-03-20 155334.png";
-import codekori from "@/assets/projects/codekori.png";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTheme } from "@/provider/page";
 
